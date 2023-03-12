@@ -1,0 +1,21 @@
+{
+  "development": {
+    "dialect": "mssql",
+    "username": "mihai",
+    "password": "022387339",
+    "dialectOptions": {
+      "encrypt": true,
+      "instanceName": "SQLEXPRESS",
+      "options": {
+        "database": "Tehnica_de_uz_casnic",
+        "encrypt": true,
+        "port": 1433,
+        "requestTimeout": 300000,
+        "rowCollectionOnDone": true,
+        "rowCollectionOnRequestCompletion": true,
+        "useColumnNames": false
+      },
+      "port": 1433
+    }
+  }
+}
